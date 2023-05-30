@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="25.987" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="Validate the Hotel Room Booking Functions" name=" - Example #1.1" time="25.713">
+<failure type="java.lang.ArithmeticException" message="/ by zero">
+<![CDATA[java.lang.ArithmeticException: / by zero
+	at org.google.stepDef.HotelBooking.i_validate_the_outcomes(HotelBooking.java:72)
+	at ?.I validate the outcomes(file:///C:/Users/siddu/eclipse-workspace/Cucumber/src/test/resources/Features/Hotel.feature:15)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Launch the browser....................................................passed
+And Open application........................................................passed
+When Enter the  "karthikmadhan" and valid "karthikeyan007"..................passed
+And Enter the "London" and hotel "Hotel Sunshine" and room "Standard".......passed
+And Enter the first "ganapathy" and lastname "Sekar" and "Los Angels".......passed
+And Enter the cardno "8965756321563254" and cardtype "AMEX" and month "5" and year "2025" and cvv "152".passed
+Then I validate the outcomes................................................failed
+]]></system-out>
+</testcase>
+</testsuite>
